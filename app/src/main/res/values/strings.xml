@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExcelReader</string>
+    <string name="excel_reader">Excel Reader</string>
+    <string name="v1_0">v1.0</string>
+    <string name="about">About</string>
+    <string name="read_excel_data">Read Excel Data</string>
+    <string name="write_excel_data">Write Excel Data</string>
+</resources>

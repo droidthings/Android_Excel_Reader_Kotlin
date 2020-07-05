@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        tools:context=".SplashActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#039815"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/excel_reader"
+                android:textSize="30sp"
+                android:fontFamily="monospace"
+                android:textColor="#FCFCFD"
+                android:textStyle="bold"
+               />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/v1_0"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                android:textColor="#FCFCFD"
+                android:textStyle="bold"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f8f8ff">
+    </LinearLayout>
+
+</LinearLayout>
